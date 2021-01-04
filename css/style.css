@@ -381,6 +381,40 @@ a {
     text-align: center !important;
     }
 
+.trip-form {
+    padding: 40px 30px;
+    background: #fff;
+    position: relative;
+    margin-top: -90px;
+    -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+  }
+
+.trip-form h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #000;
+   }
+
+.form-control {
+      height: 55px;
+      background: #fff !important;
+    }
+
+.form-control:active, .form-control:focus {
+      border-color: #007bff; 
+    }
+
+.form-control:hover, .form-control:active, .form-control:focus {
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important; 
+    }
+
+.form-control:hover, .form-control:active, .form-control:focus {
+      border: 1px solid #666666;
+    }
+
 .slider-text {
     height: 900px;
   }
