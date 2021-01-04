@@ -269,3 +269,14 @@ Array.prototype.forEach.call(document.querySelectorAll)('.ag-parallax'), functio
   elem.style.backgroundImage = 'url('+elem.getAttribute('data-parallax-image')+')';
 };
 
+var siteDatePicker = function() {
+
+  if ( $('.datepicker').length > 0 ) {
+    format: 'mm/dd/yyyy',
+    
+    $('.datepicker').datepicker();
+  }
+
+};
+siteDatePicker();
+
